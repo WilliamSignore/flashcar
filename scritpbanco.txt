@@ -1,0 +1,14 @@
+CREATE TABLE COR ( id INT auto_increment PRIMARY KEY, descricao VARCHAR(60));
+
+insert into COR (descricao) values (?);
+
+update COR set descricao = ? where id = ?
+
+delete COR where id = ?
+
+select id , descricao from COR where id = ?
+
+select id , descricao from COR 
+
+
+
